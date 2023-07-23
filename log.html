@@ -23,17 +23,21 @@
     <main>
        <form id="form">
         <p>Contact Information</p>
-        <input  id="email" type="email" name="email" placeholder="Email" required>
-        <input id="phone" type="phobe" name="phone" placeholder="Phone#" required>
-     
+        <input  id="email" type="email" name="email" placeholder="Email">
+        <span id="emailError"></span>
+        <input id="phone" type="phobe" name="phone" placeholder="Phone#">
+        <span id="phoneError"></span>
         <input type="text" name="first" placeholder="First Name">
+        <span id="nameError"></span>
         <input type="text" name="last" placeholder="Last Name">
-     
+        <span id="suernameError"></span>
         <input type="text" name="city" placeholder="City">
+        <span id="cityError"></span>
         <input type="text" name="state" placeholder="State">
+        <span id="stateError"></span>
         <button class="submit">Next</button>
        </form>
-       <div class="formMessage"></div>
+       <div id="formMessage"></div>
     </main> 
    
     <script
